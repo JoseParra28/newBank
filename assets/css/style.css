@@ -1,0 +1,28 @@
+* { 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+body {
+    min-height: 100vh;
+    max-width: 1300px;
+    width: 100%;
+    padding: 20px;
+    margin: 50px auto;
+}
+button {
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    color: black;
+    
+}
+.filter-btns {
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
