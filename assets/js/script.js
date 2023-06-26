@@ -42,5 +42,12 @@ filterTextBtns.forEach(button => button.addEventListener("click", filterFunc))
 
 // -------------------------------------------------------------------------------------
 
-const 
+const showModalBtn = document.querySelector(".show-modal");
+const bottomSheet = document.querySelector(".button-sheet")
+
+const showBottomSheet = () => {
+    bottomSheet.classList.add("show");
+    console.log("helo")
+}
+showModalBtn.addEventListener("click", showBottomSheet)
 
